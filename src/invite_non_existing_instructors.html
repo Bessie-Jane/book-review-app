@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title></title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500;700;&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="margin: 0; padding: 0; font-family: 'IBM Plex Sans', sans-serif;">
+<table
+    style="border-collapse:collapse"
+    role="presentation"
+    border="0"
+    cellpadding="0"
+    cellspacing="0"
+    width="90%"
+    align="center"
+>
+  <tr>
+    <td
+        bgcolor="#ffffff"
+        align="center"
+        style="padding: 10px 30px 15px 30px"
+    >
+      <table
+          border="0"
+          cellpadding="0"
+          cellspacing="0"
+          width="100%"
+          style="border-collapse: collapse; max-width: 300px"
+      >
+        <tr>
+          <td align="center" style="padding-top: 20px; padding-bottom: 30px">
+            <img style = "position:relative; right:110px; top:2px" src="https://res.cloudinary.com/ray1251/image/upload/v1618303114/Group_1559_ky4ovz.png" alt="socialIcons"/>
+          </td>
+        </tr>
+        <tr>
+          <td style=" font-family: IBM Plex Sans; ">
+            <p
+                style="margin: 0; font-style: normal; font-weight: bold;
+                            font-size: 20px; letter-spacing: 0.02px;
+                            line-height: 24px; color: #008EEF; font-family: 'IBM Plex Sans', sans-serif;"
+            >
+              Invite To Institution!
+            </p>
+          </td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+          <td
+              style="padding: 20px 0 20px 0; max-width: 10px"
+              bgcolor="#ffffff"
+          >
+            <p style="padding-bottom: 24px; margin: 0; font-size: 14px; line-height: 24px">
+              You have been invited to the <strong>{{ institution_name }}</strong> as an <strong>Instructor</strong> by Semicolon Africa on Enum.
+                  Please click the button below to accept the invite.
+            </p>
+            <button
+                style="border: none;
+                  color: white;
+                  padding: 13px 42px;
+                  text-align: center;
+                  text-decoration: none;
+                  display: inline-block;
+                  font-size: 14px;
+                  font-family: 'IBM Plex Sans', sans-serif;
+                  font-weight: bold;
+                  margin: 4px 2px;
+                  background-color: #008EEF;
+                  border-radius: 4px;
+                  width: 70%;
+                  cursor: pointer;"
+            >
+              <a href="{{ accept_url }}" style="text-decoration: none;color: white;">
+                    Join Institution</a>
+            </button>
+            <p style="font-size: 14px; line-height: 24px">
+              If you can't click the button, kindly click
+              <a href="{{ accept_url }}" style="text-decoration: none; color: #008EEF">here</a>
+            </p>
+            <p style=" font-size: 14px; line-height: 24px; padding-top: 15px; margin-bottom: 0">
+              Regards,
+              <br>
+              Enum team
+            </p>
+              <p style="font-size: 10px; line-height: 24px"
+              ><strong>NOTE:</strong>
+                  This link will expire <strong> 7 days</strong> from the day this email got sent.
+              </p>
+
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 0 0 7em 0;">
+      <table
+          border="0"
+          cellpadding="0"
+          cellspacing="0"
+          width="100%"
+          style="max-width: 20em;"
+      >
+        <tr>
+          <hr style="border-bottom: 1px #bbb; margin-bottom: 4px; width: 25%">
+
+          <td
+              align="center"
+              style="padding: 20px 24px; font-family: 'Merriweather', serif; font-size: 14px; line-height: 20px; color: #FFF2C7;"
+          >
+            <a
+                target="_blank"
+                :href="'https://' + template.facebook_link"
+                data-bind="click: abandon"
+            >
+              <img
+                  src="https://res.cloudinary.com/ray1251/image/upload/v1614690122/fb-logo_xzoonz.png"
+                  alt="socialIcons"
+                  border="0"
+                  style="width: 25px;"
+              /></a>
+
+            <a target="_blank" href="https://twitter.com/lamp_africa">
+              <img
+                  src="https://res.cloudinary.com/ray1251/image/upload/v1614690111/tw-logo_pyylap.png"
+                  alt="socialIcons"
+                  border="0"
+                  style="width: 25px; margin-left: 2em;"
+              /></a>
+
+            <a
+                target="_blank"
+                href="https://instagram.com/lamp_africa"
+            >
+              <img
+                  src="https://res.cloudinary.com/ray1251/image/upload/v1614690132/ig-logo_vblnva.png"
+                  alt="socialIcons"
+                  border="0"
+                  style="width: 25px; margin-left: 2em;"
+              />
+            </a>
+            <a
+                target="_blank"
+                href="https://linkedin.com"
+            >
+              <img
+                  src="https://res.cloudinary.com/ray1251/image/upload/v1614864241/ig-logo_1_ttwydc.png"
+                  alt="socialIcons"
+                  border="0"
+                  style="width: 25px; margin-left: 2em;"
+              />
+            </a>
+
+
+          </td>
+        </tr>
+        <tr>
+          <td
+              align="center"
+              style="padding: 0 24px; font-family: IBM Plex Sans; font-style: normal; font-size: 12px; font-weight: normal; line-height: 18px; letter-spacing: 0.02em; color: #2B1C1C;"
+          >
+            <p>
+              371, Borno way, Spencer Street Alagomeji-Yaba, Lagos
+              <br />
+              <a href="https://enum.africa/" style="color: #2B1C1C;" target="_blank">
+                <strong>www.enum.africa</strong>
+              </a>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>
