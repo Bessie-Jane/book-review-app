@@ -1,20 +1,13 @@
 <template>
-    <v-main>   
-        <!-- <div class="d-flex">
-            <v-icon small 
-                    colour="grey darken"
-            >
-                    mdi-arrow-left
+    <div>  
+        <!-- <div class="d-flex ml-16 mt-2" style="cursor: pointer">
+            <v-icon small color="black">
+                mdi-arrow-left
             </v-icon>  
-            <span class="mx-1 caption">Back</span>
-        </div>  -->
-
-        <div style="cursor: pointer" >
-            <feather type='arrow-left' colour="grey darken" style="width:15px" class="mr-1" /> 
-            <span>Back</span>
-        </div> 
+            <span class="mx-1 caption" @click="$router.go(-1)">Back</span>
+        </div>   -->
  
-        <v-card-title class="justify-center">
+        <v-card-title class="justify-center font-bold text-xl">
             <h1>BOOK REVIEWS</h1>
         </v-card-title>
 
@@ -25,9 +18,7 @@
             <br>
         </div>
         
-        <div v-for="(post, i) in myPosts" 
-            :key="i"
-        >
+        <div v-for="(post, i) in myPosts" :key="i">
             <div>
                 <p>REVEIWED BY: <span>{{post.byLine}}</span></p>
                 <p>SUMMARY: <span>{{post.summary}}</span></p>
@@ -36,7 +27,7 @@
             </div>    
         </div>
         
-    </v-main>
+    </div>
 </template>
 
 <script>  
